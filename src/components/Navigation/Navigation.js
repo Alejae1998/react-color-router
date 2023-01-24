@@ -3,10 +3,10 @@ import './Navigation.css';
 
 export default function Navigation() {
   const { r, g, b } = useParams();
-  const color = `rgb ( ${r}, ${g}, ${b} )`;
+  const color = `rgb(${r},${g},${b})`;
 
   return (
-    <div className="redirect" style={{ color: color }}>
+    <div className="redirect" style={{ '--color': color }}>
       <NavLink to="/rgb/160/230/255" className="colors">
         Winter Wizard
       </NavLink>
