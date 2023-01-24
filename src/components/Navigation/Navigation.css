@@ -1,0 +1,14 @@
+.active {
+  text-decoration: underline;
+  font-size: 1.5em;
+  color: var(--color);
+}
+
+.redirect {
+  text-decoration: none;
+  align-items: center;
+  font-size: 1.5em;
+}
+.redirect a {
+  margin: 10px;
+}
