@@ -1,7 +1,7 @@
 import './App.css';
 import Navigation from './components/Navigation/Navigation.js';
 import Colors from './components/Colors/Colors.js';
-// import NotFound from './components/NotFound/NotFound';
+import NotFound from './components/NotFound/NotFound';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           <Navigation />
         </Route>
         {/* <Navigation /> */}
-        {/* <Route path="*" component={NotFound} /> */}
+        <Route path="*" component={NotFound} />
       </Switch>
     </div>
   );
