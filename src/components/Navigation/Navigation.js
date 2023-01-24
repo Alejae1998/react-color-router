@@ -1,7 +1,7 @@
 import { NavLink, useParams } from 'react-router-dom';
-import './Redirect.css';
+import './Navigation.css';
 
-export default function Redirect() {
+export default function Navigation() {
   const { r, g, b } = useParams();
   const color = `rgb ( ${r}, ${g}, ${b} )`;
 
