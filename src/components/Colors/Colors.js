@@ -1,5 +1,4 @@
 import { useParams } from 'react-router-dom';
-import Navigation from '../Navigation/Navigation.js';
 import './Colors.css';
 
 export default function Colors() {
@@ -8,7 +7,6 @@ export default function Colors() {
 
   return (
     <div style={{ backgroundColor: color }} className="rgb-color">
-      <Navigation />
       <h1>{`rgb(${r},${g},${b})`}</h1>
     </div>
   );
